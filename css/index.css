@@ -1,0 +1,156 @@
+/*
+Paleta de colores
+ #CAEBF2
+ #A9A9A9
+ #EFEFEF
+ #0375B4
+ #4484CE
+ #0B3C5D
+ #1D2731
+
+
+*/
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  /* usa Oswald y si no está disponible usa san-serif*/
+  background-color: #caebf2;
+}
+
+header {
+  text-align: center;
+  background-color: #0375b4;
+  height: 60px;
+  margin: 0;
+}
+
+.logo img {
+  max-width: 200px;
+  float: left;
+  border: 2px solid #1d2731;
+  background-color: #09345c;
+  margin-top: 60px;
+}
+
+.contenedor-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.baner {
+  background-image: url('/imgs/banner1.jpeg');
+  background-size: cover;
+  text-align: right;
+}
+
+.texto-baner {
+  font-size: 30px;
+  padding: 50px 30px 0 0;
+  margin: 0;
+}
+
+.navegador a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6e9ab8;
+}
+
+.button-general {
+  background-color: #caebf2;
+  color: white;
+  border: 2px solid #1d2731;
+  margin: 60px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.button-general:active {
+  background-color: #0375b4;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.nosotros {
+}
+
+.grupo {
+  text-align: center;
+  margin: 0;
+}
+
+.integrantes-uno {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.integrantes-dos {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.foto {
+  width: 50%;
+  max-width: 100px;
+  height: 50%;
+  border-radius: 12px;
+}
+
+.nombre-integrante {
+  text-align: center;
+  margin: 20px;
+}
+
+.servicios {
+  background-color: #fff;
+}
+
+.nombre {
+  border-radius: 12px;
+  border: 2px solid #1d2731;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+
+}
+
+.col-1{
+  width: 33.33%;
+
+}
+
+.col-2{
+
+  width: 33.33%;
+
+}
+
+.col-3{
+
+  width: 33.33%;
+
+}
